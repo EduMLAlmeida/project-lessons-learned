@@ -1,9 +1,101 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin-top: 100px;
+    margin-bottom: 62px;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 60px;
 }
 
+#cabecalho * {
+    margin: 0px;
+}
+
+#minha_foto {
+    border-radius: 50px 10px 50px 10px;
+    width: 20%;
+    display: block;
+    margin: 0px auto 50px;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 80%;
+}
+
+.lado-esquerdo p {
+    margin: 20px 100px 50px 100px;
+}
+
+.lado-direito {
+    float: right;
+    width: 20%;
+}
+
+.lado-direito p {
+    margin: 5px 50px 5px 0px;
+}
+
+#licoes {
+    clear: both;
+    margin-top: 250px;
+}
+
+#licoes_aprendidas {
+    display: inline-block;
+    margin: 0px 160px 0px 330px;
+}
+
+#licoes_a_aprender {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+
+#auxilio {
+    text-align: center;
+    margin: 100px 0px;
+}
+
+#auxilio table {
+    margin: 0px auto 50px;
+}
+
+#auxilio img {
+    width: 80px;
+    margin: 10px 100px;
+    border-radius: 100%;
+}
+
+#rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 61px;
+}
+
+#rodape * {
+    margin: 0px auto;
+}
+
+#rodape a {
+    margin: 0px;
+}
+
+#rodape td {
+    padding: 0px;
+}
+
+#rodape img {
+    width: 30px;
+    margin: 0px;
+    border-radius: 100%;
+    border: solid 2px #ca5716;
+}
