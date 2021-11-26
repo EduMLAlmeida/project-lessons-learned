@@ -2,6 +2,13 @@ body {
     background-color: rgb(253, 251, 251);
     margin-top: 100px;
     margin-bottom: 62px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+h1, a, p, li, h2, h3 {
+    color: #ca5716;
 }
 
 #cabecalho {
@@ -11,10 +18,15 @@ body {
     width: 100%;
     text-align: center;
     height: 60px;
+    background-color: black;
 }
 
 #cabecalho * {
     margin: 0px;
+}
+
+#titulo {
+    margin-top: 4px;
 }
 
 #minha_foto {
@@ -78,7 +90,8 @@ body {
     left: 0;
     width: 100%;
     text-align: center;
-    height: 61px;
+    height: 64px;
+    background-color: black;
 }
 
 #rodape * {
